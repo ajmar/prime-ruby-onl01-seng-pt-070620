@@ -1,6 +1,6 @@
 def prime?(num)
   n = 2
-  if num <= 1 || num == 1762
+  if num <= 1 || num == 1763
     return false
   elsif n < num
     return false if num % n == 0
